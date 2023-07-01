@@ -1,0 +1,25 @@
+nav{position:sticky;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding:0px 8px;
+    top:0px;
+    background-color: #212121;
+    z-index: 1;
+}
+.left, .middle, .right{
+    display: flex;
+    align-items: center;
+}
+.middle input{
+    color:white;
+    min-width: 500px;
+    height: 40px;
+    background: #121212;
+
+}  
+
+.middle .icon{
+    gap:5px;
+    cursor: pointer;
+}

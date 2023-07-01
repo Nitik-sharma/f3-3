@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+:root{
+    --background-color:#212121;
+}
+html {
+    font-family: "Inter",sans-serif;
+}
+
+body{color:white;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: var(--background-color);
+}
+
+.main-container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap:15px;
+
+}
+.leftbox{
+display: flex;
+flex-direction: column;
+margin-top:10px;
+
+
+}
+
+.rightbox{
+
+    width:400px;
+display: flex;
+flex-direction: column;
+}
+
+.All{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    justify-content: flex-start;
+    margin-left:8px;
+    margin-bottom:7px;
+}
+.All a{font-size: 14px;
+    border:1px solid grey;
+    background-color: rgb(59, 59, 59);
+    border-radius: 8px;
+    padding:4px;
+    text-decoration: none;
+    color:white;
+}
+
+#video-container{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    padding:10px;
+    color:white;
+}
+
+.video-img img{ width: 160px;
+    height: 100px;
+}
+
+.video-desc{
+    height: 20px;
+    display: flex;
+}
+.viewndtime ,.channel-name{
+    display: flex;
+    gap:5px;
+    font-size:12px;
+}
+p{
+    margin:0px;
+}
+.video-info{
+    display: flex;
+    flex-direction: row; 
+    gap:10px;}
+
+.video-title{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.channel-avtar{
+    display: none;
+}
+.channel-avtar img{
+    height: 36px;
+}
+.comments{
+    width:690px;
+}
